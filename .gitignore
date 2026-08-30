@@ -1,0 +1,11 @@
+build/
+build_dbg/
+app_booter_clean/build/
+source/app_booter_bin.c
+source/app_booter_bin.h
+*.dol
+*.elf
+*.map
+*.o
+*.d
+dist/
