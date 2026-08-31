@@ -1,2 +1,2 @@
-FROM ghcr.io/wiiu-env/devkitppc:20230621@sha256:173f418076dbe51bf1b52d8ca24bde13e1ed26fc7ef7c88ee04fc24981b82238
+FROM ghcr.io/wiiu-env/devkitppc:20260504@sha256:68785e7d75b070b0aea03272b61f36dd2fddfda4f442cdf0e27b168bd36a09fb
 WORKDIR /project
