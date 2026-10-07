@@ -21,7 +21,7 @@ jobs:
           git rev-parse HEAD > BUILD-COMMIT.txt
           docker image inspect component-builder > BUILD-TOOLCHAIN.json
           sha256sum *.dol > SHA256SUMS.txt
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: UInjectForge-Nintendont-Autobooter-build
           if-no-files-found: error
